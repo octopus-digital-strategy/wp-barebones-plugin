@@ -3,7 +3,7 @@
 This project helps you build a WordPress plugin faster.
 Some elemental tasks have been pre-configured so you can get down to coding.
 
-**This Bare Bones uses [Composer](http://getcomposer.com) to handle PSR-4 autoloading.** 
+**This Bare Bones uses [Composer](http://getcomposer.org) to handle PSR-4 autoloading.** 
 
 This OSS project is courtesy of [Octopus Digital Strategy](http://octopus.mx) released under [GPL License](https://www.gnu.org/licenses/gpl.txt).
 
