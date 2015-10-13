@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'YourPluginNameSpace\\' => array($baseDir . '/src'),
+    'BareBonesPlugin\\' => array($baseDir . '/src'),
 );

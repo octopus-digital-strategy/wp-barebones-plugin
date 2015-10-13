@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'BareBonesPlugin\\SetupPlugin' => $baseDir . '/src/SetupPlugin.class.php',
 );
