@@ -112,6 +112,7 @@ If you want to add another resource like javascript, views, templates or files, 
 
 ###Version 0.1
 
+* Implemented SetupClass instance on init.php file 
 * Added empty css and js files
 * Added readme file with basic documentation
 * Implemented pre-configured css and script enqueue for both admin and front end

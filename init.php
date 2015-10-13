@@ -15,3 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Composer implementation
 require_once('vendor/autoload.php');
+
+// Instance the Setup
+new \BareBonesPlugin\SetupPlugin();
