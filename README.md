@@ -24,7 +24,7 @@ Developed and hopefully maintained by [Page-Carbajal](http://pagecarbajal.com).
 
 ##How to use this Bare Bones
 
-Visit the [Getting Started Guide]() to understand how to use this project.  
+Visit the [Getting Started Guide](https://github.com/octopus-digital-strategy/barebones-wp-plugin/wiki/Getting-Started-Guide) to understand how to use this project.  
 
 ##Change Log
 
@@ -32,6 +32,7 @@ Visit the [Getting Started Guide]() to understand how to use this project.
 ###Version 0.1.1
 
 * Fixed small error on enqueueScripts and enqueueStyles. Both functions were using SetupPlugin::getResourceDirectory instead of SetupPlugin::getResourceURL to get the URL to the file.
+* Added link to the Getting Started Guide
 * Getting Started documentation was moved to the Wiki of the project
 
 
