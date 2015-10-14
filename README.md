@@ -84,6 +84,10 @@ To accomplish this task you have to locate 2 files. composer.json on the root of
 
 Change **BareBonesPlugin** to **YourPluginNameSpace** remember that in composer.json the namespace always ends with two forward slashes ** \ \ **
 
+Finally open the **init.php** file on the root of your plugin folder. Change the Namespace before **\YourPluginNameSpace\SetupPlugin()**
+
+***REMEBER TO USE VALID NAMESPACES***
+
 ###Step 5. Dump Autoload
 
 You are almost ready to get coding. The only thing you have to do is to dump the autoload. 
