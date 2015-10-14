@@ -30,12 +30,12 @@ class SetupPlugin
     public static function enqueueStyles()
     {
         if( is_admin() ){
-            if( $stylePath = self::getResourceDirectory( 'admin-styles.css', 'css' ) ){
+            if( $stylePath = self::getResourceURL( 'admin-styles.css', 'css' ) ){
                 wp_enqueue_style( 'your-plugin-name-admin-styles', $stylePath );
             }
         }
 
-        if( $stylePath = self::getResourceDirectory( 'front-end.css', 'css' ) ){
+        if( $stylePath = self::getResourceURL( 'front-end.css', 'css' ) ){
             wp_enqueue_style( 'your-plugin-name-front-end-styles', $stylePath );
         }
     }
@@ -43,12 +43,12 @@ class SetupPlugin
     public static function enqueueScripts()
     {
         if( is_admin() ){
-            if( $scriptPath = self::getResourceDirectory( 'admin-script.js', 'javascript' ) ){
+            if( $scriptPath = self::getResourceURL( 'admin-script.js', 'javascript' ) ){
                 wp_enqueue_script( 'your-plugin-name-admin-script', $scriptPath, array( 'jquery' ) );
             }
         }
 
-        if( $scriptPath = self::getResourceDirectory( 'front-end.js', 'javascript' ) ){
+        if( $scriptPath = self::getResourceURL( 'front-end.js', 'javascript' ) ){
             wp_enqueue_script( 'your-plugin-name-front-end-script', $scriptPath, array( 'jquery' ) );
         }
     }
