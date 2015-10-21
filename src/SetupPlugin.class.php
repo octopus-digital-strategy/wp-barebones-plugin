@@ -15,7 +15,7 @@ class SetupPlugin
 
     public function __construct()
     {
-        $this->registerStylesAndScripts();
+        $this->registerStylesAndScripts()->registerTextDomain();
     }
 
     public function registerStylesAndScripts()
@@ -23,6 +23,12 @@ class SetupPlugin
         // Load scripts for the front end
         add_filter( 'wp_enqueue_scripts', array( __CLASS__, 'enqueueStyles' ) );
         add_filter( 'wp_enqueue_scripts', array( __CLASS__, 'enqueueScripts' ) );
+        return $this;
+    }
+
+    public function registerTextDomain()
+    {
+        add_filter('plugins_loaded', array($this, 'registerPluginTextdomain') );
         return $this;
     }
 
