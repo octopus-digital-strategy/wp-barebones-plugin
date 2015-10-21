@@ -32,6 +32,13 @@ class SetupPlugin
         return $this;
     }
 
+    public function registerPluginTextDomain()
+    {
+        if( $path = self::getResourceURL('', 'languages') ){
+            load_plugin_textdomain( 'my-plugin', false, $path );
+        }
+    }
+
     // Static methods
     public static function enqueueStyles()
     {
