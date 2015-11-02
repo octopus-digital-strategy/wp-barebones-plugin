@@ -34,7 +34,7 @@ class SetupPlugin
 
     public function registerPluginTextDomain()
     {
-        if( $path = self::getResourceURL('', 'languages') ){
+        if( $path = self::getResourceDirectory('', 'languages') ){
             load_plugin_textdomain( 'my-plugin', false, $path );
         }
     }

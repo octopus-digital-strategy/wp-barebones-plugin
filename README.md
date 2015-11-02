@@ -29,6 +29,12 @@ Visit the [Getting Started Guide](https://github.com/octopus-digital-strategy/ba
 ##Change Log
 
 
+###Version 0.1.2
+
+* Tagged to 0.1.2 
+* Fixed loadTextDomain errors 
+
+
 ###Version 0.1.1
 
 * Fixed small error on enqueueScripts and enqueueStyles. Both functions were using SetupPlugin::getResourceDirectory instead of SetupPlugin::getResourceURL to get the URL to the file.
