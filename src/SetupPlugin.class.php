@@ -28,7 +28,7 @@ class SetupPlugin
 
     public function registerTextDomain()
     {
-        add_filter('plugins_loaded', array($this, 'registerPluginTextdomain') );
+        add_filter('plugins_loaded', array($this, 'registerPluginTextDomain') );
         return $this;
     }
 
