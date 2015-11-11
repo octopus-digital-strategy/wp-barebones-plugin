@@ -1,7 +1,9 @@
-#Bare Bones WordPress Plugin
- 
-This project helps you build a WordPress plugin faster.
-Some elemental tasks have been pre-configured so you can get down to coding.
+#WordPress Bare Bones Plugin
+##Focus on meaningful code. 
+
+This project helps you build WordPress plugins faster.
+
+Common tasks such as script and styles enqueues are pre-coded. The plugin also loads the plugin text domain, so you can focus on what's important. 
 
 **This Bare Bones uses [Composer](http://getcomposer.org) to handle PSR-4 autoloading.** 
 
@@ -15,6 +17,7 @@ Developed and hopefully maintained by [Page-Carbajal](http://pagecarbajal.com).
 
 ##Features
 
+* Pre configured loadTextDomain
 * Readme file with implementation instructions
 * WordPress Plugin comments
 * Pre-configured css and script enqueue for both admin and front end
